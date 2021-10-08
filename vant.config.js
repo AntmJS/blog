@@ -12,31 +12,33 @@ module.exports = {
   site: {
     title: 'blog',
     logo: 'https://img.yzcdn.cn/vant/logo.png',
+    links: [
+      {
+        logo: 'https://b.yzcdn.cn/vant/logo/github.svg',
+        url: 'https://github.com/antmjs/blog',
+      },
+    ],
     nav: [
       {
-        title: '开发指南',
+        title: '博客',
         items: [
           {
             path: 'home',
-            title: '介绍',
-            hideSimulator: true,
-          },
-          {
-            path: 'quickstart',
-            title: '快速上手',
+            title: '简介',
             hideSimulator: true,
           },
         ],
       },
-      // {
-      //   title: '基础组件',
-      //   items: [
-      //     {
-      //       path: 'demo-button',
-      //       title: 'DemoButton 按钮',
-      //     },
-      //   ],
-      // },
+      {
+        title: '前端工程建设',
+        items: [
+          {
+            path: 'construction-home',
+            title: '概览',
+            hideSimulator: true,
+          },
+        ],
+      },
     ],
   },
 };
