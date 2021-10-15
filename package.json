@@ -2,19 +2,13 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/blog.js",
-  "style": "lib/index.css",
-  "files": [
-    "lib",
-    "es"
-  ],
   "scripts": {
-    "dev": "vant-cli dev",
-    "test": "vant-cli test",
-    "lint": "vant-cli lint",
-    "build": "vant-cli build",
+    "dev": "npx vant-cli dev",
+    "test": "npx vant-cli test",
+    "lint": "npx vant-cli lint",
+    "build": "npx vant-cli build",
     "prepare": "husky install",
-    "release": "vant-cli release",
+    "release": "npx vant-cli release",
     "test:coverage": "open test/coverage/index.html",
     "build-site": "npx vant-cli build-site && gh-pages -d site"
   },
