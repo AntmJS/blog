@@ -20,21 +20,11 @@ module.exports = {
     ],
     nav: [
       {
-        title: '博客',
+        title: 'AntM组件库',
         items: [
           {
             path: 'home',
-            title: '简介',
-            hideSimulator: true,
-          },
-        ],
-      },
-      {
-        title: '前端工程建设',
-        items: [
-          {
-            path: 'construction-home',
-            title: '概览',
+            title: '介绍',
             hideSimulator: true,
           },
         ],
