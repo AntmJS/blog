@@ -42,4 +42,4 @@
 
 > 如果你有兴趣和我们继续探讨，可以扫描[README.md](https://github.com/AntmJS/vantui)的二维码板块加微信群一起讨论，因为微信群二维码有时间限制，这里就不放了，github 会及时更新。
 
-> <img style="width:300px" src="https://antm-js.gitee.io/resource/dingding.jpeg" />
+> <img style="width:300px" src="https://antm-js.gitee.io/resource/dingding_v1.png" />
